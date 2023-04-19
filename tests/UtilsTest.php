@@ -3,9 +3,10 @@
 namespace Hexlet\Phpunit\Tests;
 
 use PHPUnit\Framework\TestCase;
+
 use function Hexlet\Phpunit\Utils\reverseString;
 
-Class UtilsTest extends TestCase
+class UtilsTest extends TestCase
 {
     public function testReverse(): void
     {
@@ -13,5 +14,3 @@ Class UtilsTest extends TestCase
         $this->assertEquals('olleh', reverseString('hello'));
     }
 }
-
-?>
